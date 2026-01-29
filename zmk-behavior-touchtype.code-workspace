@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../zmk-behavior-touchtype"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"zephyr-tools.paths.zephyrBase": "/workspaces/zmk/zephyr",
+		"favorites.resources": [
+			{
+				"filePath": "/workspaces/zmk/app/boards/arm/zmk-touchtype-keyboard",
+				"group": "Default"
+			}
+		]
+	}
+}

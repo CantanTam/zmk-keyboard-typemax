@@ -1,0 +1,20 @@
+config BATTERY_ALERT
+    bool "Enable Battery Low Alert"
+    default y
+
+config BATTERY_LEVEL
+    int "Battery Alert Threshold (%)"
+    default 5
+    range 0 100
+    depends on BATTERY_ALERT
+
+config RECORD_LAYER
+    bool "Record last used layer to flash"
+    default y
+    depends on SETTINGS
+
+config XW12A
+	bool "XW12A capacitive touch sensor"
+	default y
+	depends on DT_HAS_XINWANG_XW12A_ENABLED
+	select I2C
