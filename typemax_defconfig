@@ -160,6 +160,14 @@ CONFIG_XW12A=y
 # usb连接
 CONFIG_ZMK_USB=y
 
+# ws2812 led相关
+CONFIG_LED_STRIP=y
+CONFIG_WS2812_STRIP=y
+CONFIG_SPI=y
+
+
+
+
 
 
 
