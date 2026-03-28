@@ -516,7 +516,7 @@
         };
 
         // 短按输出 enter ，长按输出 →
-        th_enter: enter_right {
+        th_center: enter_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -546,7 +546,7 @@
         };
 
          // 长按 $ 短按 Q
-        th_cr2c2: q_or_dollar {
+        th_q: q_or_dollar {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -571,7 +571,7 @@
         };
 
         // 长按 ~ 短按 W
-        th_cr2c3: w_or_tilde {
+        th_w: w_or_tilde {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -596,7 +596,7 @@
         };       
 
         // 长按 = 短按 E
-        th_cr2c4: e_or_equal {
+        th_e: e_or_equal {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -621,7 +621,7 @@
         };
 
         // 长按 - 短按 R
-        th_cr2c5: r_or_minus {
+        th_r: r_or_minus {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -646,7 +646,7 @@
         };
 
         // 长按 ` 短按 T
-        th_cr2c6: t_or_grave {
+        th_t: t_or_grave {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -671,7 +671,7 @@
         };        
 
         // 长按 ? 短按 Y
-        th_cr2c7: y_or_question {
+        th_y: y_or_question {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -696,7 +696,7 @@
         };        
 
         // 长按 _ 短按 U
-        th_cr2c8: u_or_underscore {
+        th_u: u_or_underscore {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -721,7 +721,7 @@
         };
 
         // 长按 @ 短按 I
-        th_cr2c9: i_or_at {
+        th_i: i_or_at {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -746,7 +746,7 @@
         };
 
         // 长按 | 短按 O
-        th_cr7c1: o_or_pipe {
+        th_o: o_or_pipe {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -771,7 +771,7 @@
         };
 
         // 长按 % 短按 P
-        th_cr7c2: p_or_percent {
+        th_p: p_or_percent {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -796,7 +796,7 @@
         };
 
         // 长按 & 短按 A
-        th_cr3c2: a_or_ampersand {
+        th_a: a_or_ampersand {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -821,7 +821,7 @@
         };
 
         // 长按 "" 短按 S
-        th_cr3c3: s_or_double_quote {
+        th_s: s_or_double_quote {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -846,7 +846,7 @@
         };
 
         // 长按 / 短按 D
-        th_cr3c4: d_or_slash {
+        th_d: d_or_slash {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -871,7 +871,7 @@
         };
 
         // 长按 [] 短按 F
-        th_cr3c5: f_or_brackets {
+        th_f: f_or_brackets {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -896,7 +896,7 @@
         };
 
         // 长按 > 短按 G
-        th_cr3c6: g_or_greater_than {
+        th_g: g_or_greater_than {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -921,7 +921,7 @@
         };
 
         // 长按 {} 短按 H
-        th_cr3c7: h_or_braces {
+        th_h: h_or_braces {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -946,7 +946,7 @@
         };
 
         // 长按 + 短按 J
-        th_cr3c8: j_or_plus {
+        th_j: j_or_plus {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -971,7 +971,7 @@
         };
 
         // 长按 () 短按 K
-        th_cr3c9: k_or_parenthesis {
+        th_k: k_or_parenthesis {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -996,7 +996,7 @@
         };
 
         // 长按 < 短按 L
-        th_cr8c1: l_or_less_than {
+        th_l: l_or_less_than {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1021,7 +1021,7 @@
         };
 
         // 长按 : 短按 ;
-        th_cr8c2: colon_or_semicolon {
+        th_semi: colon_or_semicolon {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1046,7 +1046,7 @@
         };
 
         // 长按 # 短按 X
-        th_cr4c3: x_or_hash {
+        th_x: x_or_hash {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1071,7 +1071,7 @@
         };
 
         // 长按 '' 短按 C
-        th_cr4c4: c_or_single_quotes {
+        th_c: c_or_single_quotes {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1096,7 +1096,7 @@
         };
 
         // 长按 ^ 短按 V
-        th_cr4c5: v_or_caret {
+        th_v: v_or_caret {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1121,7 +1121,7 @@
         };
 
         // 长按 (反斜杠) 短按 B
-        th_cr4c6: b_or_backslash {
+        th_b: b_or_backslash {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1146,7 +1146,7 @@
         };
 
         // 长按 ! 短按 N
-        th_cr4c7: n_or_exclamation {
+        th_n: n_or_exclamation {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1171,7 +1171,7 @@
         };
 
         // 长按 * 短按 M
-        th_cr4c8: m_or_asterisk {
+        th_m: m_or_asterisk {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1196,7 +1196,7 @@
         };
 
         // 长按 <> 短按 ,
-        th_cr4c9: comma_or_thans {
+        th_comma: comma_or_thans {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1221,7 +1221,7 @@
         };
 
         // 长按 ← 短按 SPACE
-        th_cr5c4: space_or_left {
+        th_vspace: space_or_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
@@ -1246,7 +1246,7 @@
         };
 
         // 长按 → 短按 ESC
-        th_cr5c5: esc_or_right {
+        th_esc: esc_or_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = HOLD_TIME;      // 短按判定时间，可调
