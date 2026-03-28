@@ -29,9 +29,9 @@
     /*ROW_2*/   &kp GRAVE       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &none
     /*ROW_3*/   &kp TAB         &none           &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &none
     /*ROW_4*/   &capled         &none           &kp A           &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &none
-    /*ROW_5*/   &none           &kp LSHIFT      &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &none           &none
-    /*ROW_6*/   &kp LCTRL       &kp LMETA       &none           &kp LALT        &none           &kp SPACE       &none           &kp ENTER       &none           &none
-    /*ROW_7*/   &kp F7          &kp F8          &none           &kp F9          &kp F10         &kp F11         &kp F12         &none           &none           &none
+    /*ROW_5*/   &none           &kp LSHIFT      &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &none           &kp F9
+    /*ROW_6*/   &kp LCTRL       &kp LMETA       &none           &kp LALT        &none           &kp SPACE       &none           &kp ENTER       &none           &kp F10
+    /*ROW_7*/   &kp F7          &kp F8          &none           &none           &none           &none           &none           &kp F12         &none           &kp F11
     /*ROW_8*/   &none           &kp N9          &kp N0          &kp MINUS       &kp EQUAL       &kp BACKSPACE   &none           &kp INSERT      &kp HOME        &kp PAGE_UP
     /*ROW_9*/   &kp I           &kp O           &kp P           &kp LBKT        &kp RBKT        &none           &kp BACKSLASH   &kp DELETE      &kp END         &kp PAGE_DOWN
     /*ROW_10*/  &none           &kp K           &kp L           &kp SEMICOLON   &kp APOSTROPHE  &kp ENTER       &none           &none           &none           &none
@@ -89,9 +89,9 @@
     /*ROW_2*/   &trans          &trans          &trans          &th_guill 0 0   &th_col_par 0 0 &th_quote 0 0   &th_cande 0 0   &th_dands 0 0   &th_qandc 0 0   &trans
     /*ROW_3*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_4*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-    /*ROW_5*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-    /*ROW_6*/   &trans          &trans          &trans          &trans          &trans          &th_space 0 0  &trans          &th_center 0 0  &trans          &trans
-    /*ROW_7*/   &kp N7          &kp N8          &trans          &kp N9          &kp N0          &trans          &trans          &trans          &trans          &trans
+    /*ROW_5*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &kp N9
+    /*ROW_6*/   &trans          &trans          &trans          &trans          &trans          &th_space 0 0   &trans          &th_center 0 0  &trans          &kp N0
+    /*ROW_7*/   &kp N7          &kp N8          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_8*/   &trans          &th_eandu 0 0   &th_tandi 0 0   &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_9*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_10*/  &trans          &trans          &trans          &th_cquoc 0 0   &trans          &trans          &trans          &trans          &trans          &trans
