@@ -16,7 +16,6 @@
 #define WRT_LAYER 3
 
 / {
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -74,7 +73,7 @@
     /*ROW_7*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_8*/   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_9*/   &th_i 0 0       &th_o 0 0       &th_p 0 0       &trans          &trans          &trans          &trans          &trans          &trans          &trans
-    /*ROW_10*/  &trans          &th_k 0 0       &th_l 0 0       &th_semi 0 0    &trans          &th_esc 0 0     &trans          &trans          &trans          &trans
+    /*ROW_10*/  &trans          &th_k 0 0       &th_l 0 0       &th_semi 0 0    &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_11*/  &th_m 0 0       &th_comma 0 0   &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
     /*ROW_12*/  &trans          &trans          &trans          &mo FN_LAYER    &trans          &trans          &trans          &trans          &trans          &trans 
             >;
